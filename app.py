@@ -5,7 +5,7 @@ from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
 # Load Model
-model=load_model("hand_written_digit_recognition.h5")
+model=tf.keras.models.load_model("model.h5")
 
 st.title("✍️ Handwritten Digit Recognizer")
 st.write("Draw a digit (0–9) in the box below")
