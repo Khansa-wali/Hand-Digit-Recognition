@@ -1,6 +1,6 @@
 streamlit
 tensorflow==2.16.1
-numpy==1.26.4
+numpy
 pillow
 h5py
 streamlit-drawable-canvas
